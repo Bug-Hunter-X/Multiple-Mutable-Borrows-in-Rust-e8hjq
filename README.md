@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: attempting to create multiple mutable borrows of the same variable.  Rust's ownership and borrowing system prevents data races by disallowing this. The solution shows how to refactor the code to work correctly.
